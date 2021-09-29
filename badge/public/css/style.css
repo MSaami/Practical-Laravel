@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir.woff2') format('woff2'),
+    url('../fonts/Vazir.woff') format('woff'),
+    url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Bold.eot');
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Bold.woff2') format('woff2'),
+    url('../fonts/Vazir-Bold.woff') format('woff'),
+    url('../fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Black.eot');
+    src: url('../fonts/Vazir-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Black.woff2') format('woff2'),
+    url('../fonts/Vazir-Black.woff') format('woff'),
+    url('../fonts/Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Medium.eot');
+    src: url('../fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Medium.woff2') format('woff2'),
+    url('../fonts/Vazir-Medium.woff') format('woff'),
+    url('../fonts/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Light.eot');
+    src: url('../fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Light.woff2') format('woff2'),
+    url('../fonts/Vazir-Light.woff') format('woff'),
+    url('../fonts/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Thin.eot');
+    src: url('../fonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Thin.woff2') format('woff2'),
+    url('../fonts/Vazir-Thin.woff') format('woff'),
+    url('../fonts/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    font-family: Vazir;
+}
+
+
+
+
+.content {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.course-title {
+    background-color: #fff;
+    color: #636b6f;
+    font-weight: 300;
+    margin: 0;
+}
+
+.library-title {
+    color: #636b6f;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.logout-btn {
+    left: 0;
+}
+.checkbox {
+padding-left: 20px; }
+.checkbox label {
+    display: inline-block;
+    position: relative;
+padding-left: 5px; }
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    margin-left: -18px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    margin-left: -20px;
+    padding-left: 3px;
+    padding-top: 1px;
+    font-size: 11px;
+color: #555555; }
+.checkbox input[type="checkbox"] {
+opacity: 0; }
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+outline-offset: -2px; }
+.checkbox input[type="checkbox"]:checked + label::after {
+    font-family: 'FontAwesome';
+content: "\f00c"; }
+.checkbox input[type="checkbox"]:disabled + label {
+opacity: 0.65; }
+.checkbox input[type="checkbox"]:disabled + label::before {
+    background-color: #eeeeee;
+cursor: not-allowed; }
+.checkbox.checkbox-circle label::before {
+border-radius: 50%; }
+.checkbox.checkbox-inline {
+margin-top: 0; }
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+    background-color: #428bca;
+border-color: #428bca; }
+.checkbox-primary input[type="checkbox"]:checked + label::after {
+color: #fff; }
+.well{
+    background-color :#F8F9FA ;
+    padding : 10px;
+    border-radius : 5px;
+}
+.well  table{
+    border-top : hidden;
+}
+
